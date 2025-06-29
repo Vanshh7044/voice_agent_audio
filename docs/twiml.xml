@@ -1,13 +1,10 @@
 <Response>
   <Play>https://raw.githubusercontent.com/Vanshh7044/voice_agent_audio/main/ElevenLabs_2025-06-29T17_47_27_Liam_pre_sp100_s50_sb75_v3.mp3</Play>
-  <Say voice="Liam" language="en-US">
-    Hey, thanks for calling. Just a couple of quick questions to help point you in the right direction. First — are you looking to buy, sell, or rent a property?
-  </Say>
   <Record 
     action="https://vanshh7044.app.n8n.cloud/webhook/twilio-inbound-call" 
     method="POST" 
     maxLength="30" 
     playBeep="true" 
     timeout="5" 
-    transcribe="false"/>
+    transcribe="false" />
 </Response>
