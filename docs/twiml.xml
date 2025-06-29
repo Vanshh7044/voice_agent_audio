@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <Response>
   <Play>https://raw.githubusercontent.com/Vanshh7044/voice_agent_audio/main/ElevenLabs_2025-06-29T17_47_27_Liam_pre_sp100_s50_sb75_v3.mp3</Play>
   <Say voice="Liam" language="en-US">
@@ -9,6 +8,6 @@
     method="POST" 
     maxLength="30" 
     playBeep="true" 
-    timeout="5"
-    transcribe="false" />
+    timeout="5" 
+    transcribe="false"/>
 </Response>
